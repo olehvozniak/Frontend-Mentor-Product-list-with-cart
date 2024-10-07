@@ -1,0 +1,29 @@
+.item {
+  max-width: calc((100% - 32px) / 3);
+
+  @media screen and (max-width: $bp-small-desktop) {
+    max-width: calc((100% - 16px) / 2);
+  }
+
+  @media screen and (max-width: $bp-mobile) {
+    max-width: 100%;
+  }
+
+  &__image {
+    border-radius: 12px;
+    margin-bottom: 24px;
+
+    &--selected {
+      box-shadow: 0px 0px 0px 2px var(--red);
+    }
+  }
+
+  &__content {
+    position: relative;
+  }
+
+  &__price {
+    color: var(--red);
+    font-weight: 600;
+  }
+}

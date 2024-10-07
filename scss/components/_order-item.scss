@@ -1,0 +1,49 @@
+.order-item {
+  margin-bottom: 16px;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+
+  &__attributes {
+    flex-grow: 1;
+  }
+
+  &__name {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  &__info {
+    display: flex;
+    align-items: center;
+  }
+
+  &__count {
+    font-size: 14px;
+    color: var(--red);
+    font-weight: 700;
+    margin-right: 16px;
+  }
+
+  &__price {
+    margin-right: 6px;
+  }
+
+  &__cost {
+    font-weight: 600;
+  }
+
+  &__delete-button {
+    width: 18px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid var(--rose300);
+    border-radius: 50%;
+  }
+}

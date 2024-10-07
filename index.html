@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Product list with cart</title>
+    <link rel="stylesheet" href="css/main.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="menu">
+        <h2 class="menu__title">Desserts</h2>
+        <ul class="menu__list"></ul>
+      </section>
+      <section class="cart">
+        <h2 class="cart__title">Your Cart (0)</h2>
+        <div class="cart__default-window">
+          <img
+            class="cart__default-image"
+            src="assets/images/illustration-empty-cart.svg"
+            alt="cake"
+          />
+          <p class="cart__default-text">Your added items will appear here</p>
+        </div>
+      </section>
+    </div>
+    <div class="backdrop backdrop--is-hidden">
+      <div class="modal">
+        <img
+          class="modal__img"
+          src="assets/images/icon-order-confirmed.svg"
+          alt="Order confirmed"
+        />
+        <h2 class="modal__title">Order Confirmed</h2>
+        <p class="modal__text">We hope you enjoy your food!</p>
+        <ul class="modal__order"></ul>
+        <button class="modal__finish-button" type="button">
+          Start New Order
+        </button>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by <a href="#">Oleh Vozniak</a>.
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

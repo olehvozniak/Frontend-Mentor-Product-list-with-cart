@@ -1,0 +1,32 @@
+.buy-button {
+  user-select: none;
+  border-radius: 32px;
+  position: absolute;
+  top: -42px;
+  left: 0;
+  right: 0;
+  margin-inline: auto;
+  width: 140px;
+  height: 38px;
+
+  color: var(--rose900);
+
+  &__add-to-cart-button {
+    border: 1px solid var(--rose500);
+    border-radius: 32px;
+
+    padding: 8px 20px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-weight: 600;
+
+    &:hover {
+      background-color: var(--rose300);
+    }
+  }
+
+  &__icon {
+    display: inline-block;
+  }
+}

@@ -1,0 +1,30 @@
+.control-panel {
+  background-color: var(--red);
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+
+  border-radius: 32px;
+
+  &__button {
+    background-color: transparent;
+    border: 1px solid var(--rose50);
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__item-count {
+    color: var(--rose50);
+    font-weight: 600;
+    font-size: 14px;
+    width: 10px;
+    text-align: center;
+  }
+}
